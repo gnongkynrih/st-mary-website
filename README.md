@@ -17,3 +17,10 @@ https://animate.style/
 npm install animate.css --save
 in the resources/css/app.css add this
 @import "animate.css";
+
+ADD WYSIWYG EDITOR
+https://quilljs.com/docs/why-quill
+npm install quill@2.0.3
+
+ADD QUILL TO LARAVEL
+CHECK about-managemewnt.blade.php

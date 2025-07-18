@@ -5,5 +5,5 @@
     {{-- Service Section --}}
     <livewire:home-page.service-section />
 
-    This is my home page
+    <livewire:contact-us />
 </div>
