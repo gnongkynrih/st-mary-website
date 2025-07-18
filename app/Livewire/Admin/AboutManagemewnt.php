@@ -32,9 +32,11 @@ class AboutManagemewnt extends Component
     }
     public function mount(){
         $about = About::first();
-        $this->title = $about->title;
-        $this->contents = $about->contents;
-        $this->image = $about->image;
+        if($about){
+            $this->title = $about->title;
+            $this->contents = $about->contents;
+            $this->image = $about->image;
+        }
     }
     public function save(){
         $this->validate(); //validate the form
